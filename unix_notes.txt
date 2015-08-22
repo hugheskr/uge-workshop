@@ -44,7 +44,7 @@
    44  ls r
    45  ls -r
    46  ls -l
-   47  ls -rl
+   47  ls -rl                                      list reverse long
    48  man
    49  cd /program files
    50  cd /programfiles
@@ -60,7 +60,7 @@
    60  cd /users
    61  /users
    62  cd /c
-   63  ls -lt
+   63  ls -lt                                 
    64  /windows
    65  windows
    66  cd /c/windows
@@ -71,7 +71,7 @@
    71  hp
    72  cd~
    73  cd /c/documents and settings
-   74  cd /windows
+   74  cd /windows                             wasn't in the directory so it didn't work
    75  cd /c/windows
    76  ~
    77  cd~
@@ -86,8 +86,8 @@
    86  cd windows
    87  ls .
    88  ls ~
-   89  cd ...
-   90  cd ..
+   89  cd ...                                    3 dots is not a thing
+   90  cd ..                                     go back one directory
    91  windows
    92  cd windows
    93  li
@@ -106,11 +106,11 @@
   106  cd ~
   107  cd /c
   108  hitory 3
-  109  history 5
+  109  history 5                                 get this many lines of history
   110  history 7
   111  history 10
   112  history
-  113  history |less
+  113  history |less                             piped hestory to get a more readable view
   114  history |less
   115  history
   116  history | less
@@ -139,16 +139,18 @@
   139  mkdir uge_workshop
   140  ls
   141  ls -l
-  142  mv moving_around.txt ./uge_workshop/
+  142  mv moving_around.txt ./uge_workshop/               moved text file to new directory 
   143  li
   144  ls
   145  cd uge_workshop
   146  ls
   147  cd ~
-  148  mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt
+  148  mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt          moved and renamed
   149  li
   150  ls
   151  cd uge_workshop/
   152  ls
   153  history | temp.txt
-  154  history > temp.txt
+  154  history > temp.txt                                
+
+  ls -la will show all directories even the hidden ones.  Hidden directories are preceded by a "."
