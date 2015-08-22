@@ -8,3 +8,14 @@ git branch (creates new branch)
 git checkout (switches)
 touch (created empty file for new branch)
 ls -la (shows all directories, even hidden ones)
+
+remote for Github
+local for laptop
+
+Save file to computer!!!
+
+git remove -v (two repositories communicating)
+push or pull to web
+
+git remote add origin https....... (from github. use https)
+git push -v origin master (both of these lines are on github)
